@@ -1,0 +1,6 @@
+laravel mix 6.0.19
+php 8.0.6
+Laravel 8.41.0
+vue-select2
+vue 2.6
+
