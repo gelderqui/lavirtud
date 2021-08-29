@@ -442,7 +442,7 @@
         data (){
             return {
                 venta_id: 0,
-                idcliente:0,
+                idcliente:16,
                 cliente:'',
                 fecha_hora:'',
                 tipo_comprobante : 'TICKET',
@@ -749,6 +749,7 @@
                 me.listado=0;
 
                 me.idproveedor=0;
+                me.idcliente=16;
                 me.tipo_comprobante='TICKET';
                 me.serie_comprobante='01';
                 me.num_comprobante='01';

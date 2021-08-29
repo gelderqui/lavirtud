@@ -420,7 +420,7 @@
         data (){
             return {
                 ingreso_id: 0,
-                idproveedor:3,
+                idproveedor:16,
                 proveedor:'',
                 fecha_hora:'',
                 nombre : '',
@@ -659,7 +659,7 @@
                 }).then(function (response) {
                     me.listado=1;
                     me.listarIngreso(1,'','num_comprobante');
-                    me.idproveedor=3;
+                    me.idproveedor=16;
                     me.tipo_comprobante='BOLETA';
                     me.serie_comprobante='01';
                     me.num_comprobante='01';
@@ -693,7 +693,7 @@
                 let me=this;
                 me.listado=0;
 
-                me.idproveedor=3;
+                me.idproveedor=16;
                 me.tipo_comprobante='BOLETA';
                 me.serie_comprobante='01';
                 me.num_comprobante='01';

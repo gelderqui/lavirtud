@@ -130,7 +130,7 @@ class IngresoController extends Controller
         try{
             DB::beginTransaction();
 
-            $mytime= Carbon::now('America/Lima');
+            $mytime= Carbon::now('America/Guatemala');
 
             $ingreso = new Ingreso();
             $ingreso->idproveedor = $request->idproveedor;
@@ -139,7 +139,7 @@ class IngresoController extends Controller
             //$ingreso->serie_comprobante = $request->serie_comprobante;
             $ingreso->serie_comprobante = $fechacompleta;
             //$ingreso->num_comprobante = $request->num_comprobante;
-            $ingreso->num_comprobante = $numeroComprobante;
+           $ingreso->num_comprobante = $numeroComprobante;
             $ingreso->fecha_hora = $mytime->toDateString();
             $ingreso->impuesto = $request->impuesto;
             $ingreso->total = $request->total;

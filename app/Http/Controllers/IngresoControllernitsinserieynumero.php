@@ -12,6 +12,7 @@ class IngresoController extends Controller
 {
     public function index(Request $request)
     {
+        //IngresoControllernitsinserieynumero
         if (!$request->ajax()) return redirect('/');
 
         $buscar = $request->buscar;

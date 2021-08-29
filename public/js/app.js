@@ -4343,7 +4343,7 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       ingreso_id: 0,
-      idproveedor: 3,
+      idproveedor: 16,
       proveedor: '',
       fecha_hora: '',
       nombre: '',
@@ -4577,7 +4577,7 @@ __webpack_require__.r(__webpack_exports__);
       }).then(function (response) {
         me.listado = 1;
         me.listarIngreso(1, '', 'num_comprobante');
-        me.idproveedor = 3;
+        me.idproveedor = 16;
         me.tipo_comprobante = 'BOLETA';
         me.serie_comprobante = '01';
         me.num_comprobante = '01';
@@ -4606,7 +4606,7 @@ __webpack_require__.r(__webpack_exports__);
     mostrarDetalle: function mostrarDetalle() {
       var me = this;
       me.listado = 0;
-      me.idproveedor = 3;
+      me.idproveedor = 16;
       me.tipo_comprobante = 'BOLETA';
       me.serie_comprobante = '01';
       me.num_comprobante = '01';
@@ -6185,7 +6185,7 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       venta_id: 0,
-      idcliente: 0,
+      idcliente: 16,
       cliente: '',
       fecha_hora: '',
       tipo_comprobante: 'TICKET',
@@ -6481,6 +6481,7 @@ __webpack_require__.r(__webpack_exports__);
       var me = this;
       me.listado = 0;
       me.idproveedor = 0;
+      me.idcliente = 16;
       me.tipo_comprobante = 'TICKET';
       me.serie_comprobante = '01';
       me.num_comprobante = '01';
@@ -44502,16 +44503,16 @@ var render = function() {
                             }
                           },
                           [
-                            _c("option", { attrs: { value: "DNI" } }, [
-                              _vm._v("DNI")
+                            _c("option", { attrs: { value: "DPI" } }, [
+                              _vm._v("DPI")
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "RUC" } }, [
-                              _vm._v("RUC")
+                            _c("option", { attrs: { value: "CEDULA" } }, [
+                              _vm._v("CEDULA")
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "PASS" } }, [
-                              _vm._v("PASS")
+                            _c("option", { attrs: { value: "PASAPORTE" } }, [
+                              _vm._v("PASAPORTE")
                             ])
                           ]
                         )

@@ -115,11 +115,11 @@
         @foreach ($ingreso as $i)
         <header>
         <div id="logo">
-                <img src="img/logo2.jpg" alt="incanatoIT" id="imagen">
+                <!-- <img src="img/logo2s.jpg" alt="lavirtud" id="imagen"> -->
             </div>
             <div id="datos">
                 <p id="encabezado">
-                    <b>IncanatoIT</b><br>José Gálvez 1368, Chongoyape - Chiclayo, Perú<br>Telefono:(+51)931742904<br>Email:jcarlos.ad7@gmail.com
+                    <b>La virtud</b><br>Inchehuex, Jacaltenango<br>Telefono:(502)44938092<br>Email:lavirtud@gmail.com
                 </p>
             </div>
             <div id="fact">

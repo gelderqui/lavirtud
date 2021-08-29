@@ -446,9 +446,9 @@
             <tr>
                 <td align="center">
                 <!-- Mostramos los datos de la empresa en el documento HTML -->
-                .::<strong> IncanatoIT </strong>::.<br>
-                RUC 10477157772<br>
-                José Gálvez 1368, Chongoyape - Chiclayo, Perú - 931742904<br>
+                .::<strong> La virtud</strong>::.<br>
+                Tel 11111111<br>
+                Inchehuex,Jacaltenango<br>
                 </td>
             </tr>
             <tr>
@@ -513,10 +513,10 @@
             <td colspan="3" align="center">¡Gracias por su compra!</td>
             </tr>
             <tr>
-            <td colspan="3" align="center">IncanatoIT</td>
+            <td colspan="3" align="center">Mayahonh.com</td>
             </tr>
             <tr>
-            <td colspan="3" align="center">Chiclayo - Perú</td>
+            <td colspan="3" align="center">Quetzaltenango</td>
             </tr>            
         </table>
         <br>
